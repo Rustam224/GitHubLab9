@@ -124,7 +124,7 @@
 
 int main()
 {   
- int A,B,C;
+ int A,B,C,D;
 
 printf("Введите число A\n");
 scanf("%d",&A);
@@ -135,5 +135,11 @@ scanf("%d",&B);
 C=A+B;
 printf("\n Сумма A и B:");
 printf("%d",С);
+
+
+D=A-B;
+printf("\n Разность A и B:");
+printf("%d",D);
+
 return 0;
 }
