@@ -124,11 +124,16 @@
 
 int main()
 {   
- int A,B;
+ int A,B,C;
 
 printf("Введите число A\n");
 scanf("%d",&A);
 
 printf("Введите число B\n");
 scanf("%d",&B);
+
+C=A+B;
+printf("\n Сумма A и B:");
+printf("%d",С);
+return 0;
 }
